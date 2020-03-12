@@ -1,0 +1,32 @@
+footer.container-fluid.text-center{
+    margin-top: 30px;
+    background-color: $text-corp-azul;
+    div.container{
+        div.col-sm-4{
+            h3{
+                font-family: 'Hind Siliguri', sans-serif;
+                color: $text-blanco;
+            }
+            p{
+                font-family: 'Hind Siliguri', sans-serif;
+                color: $text-blanco;
+                text-align: justify;
+                a{
+                    font-size: 13px;
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-blanco;
+                }
+            }
+            img{
+                width: 120px;
+            }
+        }
+    }
+}
+
+    
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    }

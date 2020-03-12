@@ -1,0 +1,1299 @@
+@charset "UTF-8";
+/*Variables de Color de Fondo*/
+/*Variables de Color de Texto*/
+/*Variables Tamaño de Texto*/
+/*Variables width and height*/
+/*Padding top*/
+/*margin top*/
+/*Familia de Fuentes*/
+/*Fin Variables*/
+/*Imports*/
+footer.container-fluid.text-center {
+  margin-top: 30px;
+  background-color: #202c5a; }
+  footer.container-fluid.text-center div.container div.col-sm-4 h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF; }
+  footer.container-fluid.text-center div.container div.col-sm-4 p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF;
+    text-align: justify; }
+    footer.container-fluid.text-center div.container div.col-sm-4 p a {
+      font-size: 13px;
+      font-family: 'Hind Siliguri', sans-serif;
+      color: #FFFFFF; }
+  footer.container-fluid.text-center div.container div.col-sm-4 img {
+    width: 120px; }
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px; }
+
+body {
+  overflow-x: hidden; }
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+
+._cajaAzul {
+  width: 100%;
+  height: 50px;
+  background-color: #202c5a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  ._cajaAzul .container .col-sm-6 span._color {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 20px;
+    margin-left: 5px;
+    line-height: 50px; }
+  ._cajaAzul .container .col-sm-6 a {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF;
+    padding-left: 5px;
+    margin-top: 12px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 50px;
+    padding-left: 20px; }
+
+._cajaRojo {
+  width: 100%;
+  height: 50px;
+  background-color: #C21616;
+  margin-bottom: 5px; }
+  ._cajaRojo form.example input[type=text] {
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    width: 80%;
+    height: 40px;
+    margin-top: 5px;
+    background: #FFFFFF; }
+  ._cajaRojo form.example button {
+    float: left;
+    width: 20%;
+    height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #202c5a;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #202c5a;
+    border-left: none;
+    cursor: pointer; }
+  ._cajaRojo form.example button:hover {
+    background: #202c5a;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF; }
+  ._cajaRojo form.example::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+div.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  background-color: #FFFFFF; }
+  div.jumbotron div.container.text-center h1 {
+    color: #202c5a;
+    font-family: 'Hind Siliguri', sans-serif; }
+  div.jumbotron div.container.text-center p {
+    color: #202c5a;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px; }
+
+nav.navbar.navbar-inverse {
+  background-color: #202c5a;
+  border-color: #202c5a; }
+  nav.navbar.navbar-inverse div.container div.navbar-header a.navbar-brand {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px; }
+  nav.navbar.navbar-inverse .collapse.navbar-collapse ul.nav.navbar-nav li a {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px; }
+
+div.inicioDeClases__ {
+  width: 100%;
+  height: auto; }
+  div.inicioDeClases__ div.row {
+    margin-right: 0px;
+    margin-left: 0px; }
+    div.inicioDeClases__ div.row div.col-sm-6 {
+      padding-right: 0px;
+      padding-left: 0px; }
+      div.inicioDeClases__ div.row div.col-sm-6 div._clases {
+        width: 100%;
+        height: 100px;
+        background-color: rgba(0, 86, 171, 0.75);
+        float: right; }
+        div.inicioDeClases__ div.row div.col-sm-6 div._clases h2 {
+          font-family: 'Hind Siliguri', sans-serif;
+          color: #FFFFFF;
+          line-height: 60px;
+          text-align: center; }
+        div.inicioDeClases__ div.row div.col-sm-6 div._clases button {
+          font-family: 'Hind Siliguri', sans-serif;
+          font-size: 16px;
+          background-color: #FFFFFF;
+          border: 1px solid #FFFFFF;
+          border-radius: 5px;
+          width: 50%;
+          height: 40px;
+          margin-left: 25%;
+          margin-top: 30px; }
+        div.inicioDeClases__ div.row div.col-sm-6 div._clases button:before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 0px;
+          background: rgba(19, 0, 0, 0.19);
+          -webkit-transition: all 1s ease;
+          -o-transition: all 1s ease;
+          transition: all 1s ease; }
+        div.inicioDeClases__ div.row div.col-sm-6 div._clases button:hover:before {
+          height: 100%; }
+
+div._contMayor {
+  width: 100%;
+  height: auto; }
+  div._contMayor div.row {
+    margin-right: 0px;
+    margin-left: 0px; }
+    div._contMayor div.row div.col-sm-6 {
+      padding-right: 0px;
+      padding-left: 0px; }
+      div._contMayor div.row div.col-sm-6 div._admisionEscolar {
+        width: 100%;
+        height: auto;
+        background-color: #202c5a;
+        float: right; }
+        div._contMayor div.row div.col-sm-6 div._admisionEscolar h2 {
+          font-family: 'Hind Siliguri', sans-serif;
+          color: #FFFFFF;
+          line-height: 60px;
+          text-align: center; }
+        div._contMayor div.row div.col-sm-6 div._admisionEscolar button {
+          font-family: 'Hind Siliguri', sans-serif;
+          font-size: 16px;
+          background-color: #FFFFFF;
+          border: 1px solid #FFFFFF;
+          border-radius: 5px;
+          width: 50%;
+          height: 40px;
+          margin-left: 25%;
+          margin-bottom: 30px; }
+        div._contMayor div.row div.col-sm-6 div._admisionEscolar button:before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 0px;
+          background: rgba(19, 0, 0, 0.19);
+          -webkit-transition: all 1s ease;
+          -o-transition: all 1s ease;
+          transition: all 1s ease; }
+        div._contMayor div.row div.col-sm-6 div._admisionEscolar button:hover:before {
+          height: 100%; }
+  div._contMayor div.row {
+    margin-right: 0px;
+    margin-left: 0px; }
+    div._contMayor div.row div.col-sm-6 {
+      padding-right: 0px;
+      padding-left: 0px; }
+      div._contMayor div.row div.col-sm-6 div._horarios {
+        width: 100%;
+        height: auto;
+        background-color: #C21616;
+        float: left; }
+        div._contMayor div.row div.col-sm-6 div._horarios h2 {
+          font-family: 'Hind Siliguri', sans-serif;
+          color: #FFFFFF;
+          line-height: 60px;
+          text-align: center; }
+        div._contMayor div.row div.col-sm-6 div._horarios button {
+          font-family: 'Hind Siliguri', sans-serif;
+          font-size: 16px;
+          background-color: #FFFFFF;
+          border: 1px solid #FFFFFF;
+          border-radius: 5px;
+          width: 50%;
+          height: 40px;
+          margin-left: 25%;
+          margin-bottom: 30px; }
+        div._contMayor div.row div.col-sm-6 div._horarios button:before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 0px;
+          background: rgba(19, 0, 0, 0.19);
+          -webkit-transition: all 1s ease;
+          -o-transition: all 1s ease;
+          transition: all 1s ease; }
+        div._contMayor div.row div.col-sm-6 div._horarios button:hover:before {
+          height: 100%; }
+
+div._idearioViatoriano {
+  width: 100%;
+  height: 200px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  div._idearioViatoriano h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #202c5a;
+    text-align: center; }
+  div._idearioViatoriano p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 31px;
+    color: #202c5a;
+    text-align: center; }
+
+div._contMayor2 {
+  background-color: #202c5a;
+  width: 100%;
+  height: auto;
+  background-image: url(../../img/fondos/fondo-01.jpg); }
+  div._contMayor2 div._imagen img {
+    width: 100%; }
+  div._contMayor2 div.container._texto {
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    margin-top: 40px;
+    margin: 2px; }
+    div._contMayor2 div.container._texto p {
+      color: #FFFFFF;
+      text-align: left;
+      line-height: 15pt;
+      margin-right: 20px;
+      margin-top: 23px; }
+  div._contMayor2 button {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    margin-left: 35%; }
+
+div._contMayor div.container h3._tituloEspecialidades {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #202c5a;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+  padding-top: 10px; }
+
+div._contMayor div.container div.col-sm-4 {
+  padding-right: 0px;
+  padding-left: 0px; }
+  div._contMayor div.container div.col-sm-4 div._electronica {
+    background-color: #FFFFFF;
+    float: left;
+    height: 340px; }
+    div._contMayor div.container div.col-sm-4 div._electronica h3 {
+      font-family: 'Hind Siliguri', sans-serif;
+      color: #202c5a;
+      line-height: 60px;
+      text-align: center;
+      border-bottom: 1px solid #202c5a;
+      border-bottom-width: 2px;
+      padding-bottom: 20px; }
+    div._contMayor div.container div.col-sm-4 div._electronica p {
+      font-family: 'Hind Siliguri', sans-serif;
+      color: #202c5a;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      padding: 0 12px 0 12px;
+      padding-top: 30px; }
+    div._contMayor div.container div.col-sm-4 div._electronica button {
+      font-family: 'Hind Siliguri', sans-serif;
+      font-size: 16px;
+      background-color: #202c5a;
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 5px;
+      width: 25%;
+      height: 40px;
+      margin-left: 35%;
+      margin-top: 30px; }
+
+div._contMayor div.container div.col-sm-4 div._electricidad {
+  background-color: #FFFFFF;
+  float: left;
+  height: 340px; }
+  div._contMayor div.container div.col-sm-4 div._electricidad h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #202c5a;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #C21616;
+    border-bottom-width: 2px;
+    padding-bottom: 20px; }
+  div._contMayor div.container div.col-sm-4 div._electricidad p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #202c5a;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0 12px 0 12px;
+    padding-top: 30px; }
+  div._contMayor div.container div.col-sm-4 div._electricidad button {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: #202c5a;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 30px; }
+
+div._contMayor div.container div.col-sm-4 div._vestuario {
+  background-color: #FFFFFF;
+  float: left;
+  height: 340px; }
+  div._contMayor div.container div.col-sm-4 div._vestuario h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #202c5a;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #202c5a;
+    border-bottom-width: 2px;
+    padding-bottom: 20px; }
+  div._contMayor div.container div.col-sm-4 div._vestuario p {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #202c5a;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 0 12px 0 12px;
+    padding-top: 30px; }
+  div._contMayor div.container div.col-sm-4 div._vestuario button {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: #202c5a;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 50px;
+    text-decoration: none; }
+  div._contMayor div.container div.col-sm-4 div._vestuario button:hover {
+    opacity: 0.6;
+    text-decoration: none; }
+
+div.carousel.slide ol li {
+  width: 20px; }
+
+div.carousel.slide div.carousel-inner {
+  height: 600px; }
+
+div._contMayor3 {
+  background-color: #202c5a;
+  height: auto; }
+  div._contMayor3 div.row {
+    margin-right: 0px;
+    margin-left: 0px; }
+    div._contMayor3 div.row h3._tituloNoticias {
+      font-family: 'Hind Siliguri', sans-serif;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 50px;
+      padding-top: 10px; }
+    div._contMayor3 div.row div.col-sm-6 div._noticia1 img {
+      margin-top: 20px;
+      margin-left: 30px;
+      width: 90%; }
+    div._contMayor3 div.row div.col-sm-6 div._noticia1 div._cajaTexto {
+      margin-left: 30px;
+      width: 90%;
+      background-color: #FFFFFF;
+      border-top: 4px solid #C21616;
+      height: 200px;
+      margin-bottom: 20px; }
+      div._contMayor3 div.row div.col-sm-6 div._noticia1 div._cajaTexto h3 {
+        margin: 15px;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #202c5a; }
+      div._contMayor3 div.row div.col-sm-6 div._noticia1 div._cajaTexto p {
+        margin: 15px;
+        text-align: justify;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #202c5a; }
+
+div._contMayor3 {
+  background-color: #202c5a; }
+  div._contMayor3 div.row {
+    margin-right: 0px;
+    margin-left: 0px; }
+    div._contMayor3 div.row div.col-sm-3 div._noticia2 img {
+      margin-top: 20px;
+      width: 90%; }
+    div._contMayor3 div.row div.col-sm-3 div._noticia2 div._cajaTexto {
+      width: 90%;
+      height: 180px;
+      background-color: #FFFFFF;
+      border-top: 4px solid #C21616; }
+      div._contMayor3 div.row div.col-sm-3 div._noticia2 div._cajaTexto h3 {
+        margin: 15px;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #202c5a; }
+      div._contMayor3 div.row div.col-sm-3 div._noticia2 div._cajaTexto p {
+        margin: 15px;
+        text-align: justify;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #202c5a; }
+
+div._contMayor3 div.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+  div._contMayor3 div.row div.col-sm-3 div._noticia3 img {
+    margin-top: 20px;
+    width: 90%; }
+  div._contMayor3 div.row div.col-sm-3 div._noticia3 div._cajaTexto {
+    width: 90%;
+    height: 180px;
+    background-color: #FFFFFF;
+    border-top: 4px solid #C21616; }
+    div._contMayor3 div.row div.col-sm-3 div._noticia3 div._cajaTexto h3 {
+      margin: 15px;
+      margin-top: 0px;
+      padding-top: 10px;
+      font-family: 'Hind Siliguri', sans-serif;
+      color: #202c5a; }
+    div._contMayor3 div.row div.col-sm-3 div._noticia3 div._cajaTexto p {
+      margin: 15px;
+      text-align: justify;
+      font-family: 'Hind Siliguri', sans-serif;
+      color: #202c5a; }
+
+div._contMayor4 div.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia4 {
+    z-index: 1; }
+    div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto {
+      background-size: cover;
+      background-image: url(../img/fondos/fondo-05.png);
+      width: 100%;
+      height: 250px;
+      background-color: #C21616;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+      flex-flow: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-line-pack: center;
+      align-content: center; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto h2 {
+        margin-top: 0px;
+        padding-top: 60px;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #FFFFFF;
+        z-index: 2; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto p {
+        text-align: justify;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #FFFFFF;
+        font-size: 15px; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto button {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 16px;
+        background-color: #FFFFFF;
+        color: #202c5a;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        width: 20%;
+        height: 40px; }
+
+div._contMayor4 div.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 {
+    z-index: 1; }
+    div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto {
+      background-size: cover;
+      background-image: url(../img/fondos/fondo-06.png);
+      width: 100%;
+      height: 250px;
+      background-color: #C21616;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+      flex-flow: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-line-pack: center;
+      align-content: center; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto h2 {
+        margin-top: 0px;
+        padding-top: 60px;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #FFFFFF;
+        z-index: 2; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto p {
+        text-align: justify;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #FFFFFF;
+        font-size: 15px; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto button {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 16px;
+        background-color: #FFFFFF;
+        color: #202c5a;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        width: 20%;
+        height: 40px; }
+
+div._contMayor4 div.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+  div._contMayor4 div.row div.col-sm-4 {
+    padding-right: 0px;
+    padding-left: 0px; }
+    div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto {
+      background-image: url(../img/fondos/fondo-04.jpg);
+      width: 100%;
+      height: 250px;
+      background-color: #C21616;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+      flex-flow: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-line-pack: center;
+      align-content: center; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto h2 {
+        margin-top: 0px;
+        padding-top: 60px;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #FFFFFF; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto p {
+        text-align: justify;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: #FFFFFF;
+        font-size: 15px; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto button {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 16px;
+        background-color: #FFFFFF;
+        color: #202c5a;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        width: 20%;
+        height: 40px; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto button:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0px;
+        background: rgba(19, 0, 0, 0.19);
+        -webkit-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease; }
+      div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto button:hover:before {
+        height: 100%; }
+
+div.container {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 15px; }
+  div.container div._titulo {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black; }
+    div.container div._titulo h2 {
+      font-family: 'Hind Siliguri', sans-serif; }
+
+div.content-01 {
+  width: 100%; }
+  div.content-01 div._banner-home {
+    width: 100%;
+    height: 190px;
+    background-image: url(../img/fondos/fondo-07.png);
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    div.content-01 div._banner-home p {
+      text-align: left;
+      font-family: 'Hind Siliguri', sans-serif;
+      font-size: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-line-pack: center;
+      align-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: white;
+      margin-left: 10%; }
+  div.content-01 div.container {
+    padding-top: 40px; }
+    div.content-01 div.container div.col-sm-6 div._cont-0 {
+      width: 100%;
+      height: 395px;
+      background-image: url(../img/fondos/fondo-02.jpg);
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-size: cover; }
+    div.content-01 div.container div.col-sm-6 div._cont-1 {
+      width: 100%;
+      height: auto;
+      background-color: #EFEFEF;
+      border-radius: 10px; }
+      div.content-01 div.container div.col-sm-6 div._cont-1 p {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px; }
+      div.content-01 div.container div.col-sm-6 div._cont-1 ul {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 50px;
+        padding-bottom: 30px; }
+
+div.content-02 {
+  width: 100%; }
+  div.content-02 h2 {
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif; }
+  div.content-02 div.container {
+    padding-top: 40px; }
+    div.content-02 div.container div.col-sm-6 div._cont-2 {
+      width: 100%;
+      height: 230px;
+      background-color: #EFEFEF;
+      border-radius: 10px; }
+      div.content-02 div.container div.col-sm-6 div._cont-2 h2 {
+        font-family: 'Hind Siliguri', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px; }
+      div.content-02 div.container div.col-sm-6 div._cont-2 p {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 30px; }
+      div.content-02 div.container div.col-sm-6 div._cont-2 ul {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 50px;
+        padding-bottom: 30px; }
+    div.content-02 div.container div.col-sm-6 div._cont-3 {
+      width: 100%;
+      height: 230px;
+      background-color: #EFEFEF;
+      border-radius: 10px; }
+      div.content-02 div.container div.col-sm-6 div._cont-3 h2 {
+        font-family: 'Hind Siliguri', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px; }
+      div.content-02 div.container div.col-sm-6 div._cont-3 p {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 30px; }
+      div.content-02 div.container div.col-sm-6 div._cont-3 ul {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 50px;
+        padding-bottom: 30px; }
+
+div.content-03 {
+  width: 100%; }
+  div.content-03 h2 {
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif; }
+  div.content-03 div.container {
+    padding-top: 40px;
+    margin-bottom: 30px; }
+    div.content-03 div.container div.col-sm-12 div._cont-4 {
+      width: 100%;
+      height: auto;
+      background-color: #EFEFEF;
+      border-radius: 10px; }
+      div.content-03 div.container div.col-sm-12 div._cont-4 h2 {
+        font-family: 'Hind Siliguri', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px; }
+      div.content-03 div.container div.col-sm-12 div._cont-4 p {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 15px;
+        line-height: initial;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-top: 10px; }
+
+/*Efecto Gallery*/
+div.b-efect__image_gallery img#myImg {
+  border-radius: 70px;
+  height: 200px; }
+
+.middle {
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+  .middle .text {
+    background-color: transparent;
+    color: white;
+    padding: 16px 32px; }
+
+span.glyphicon.glyphicon-plus-sign {
+  font-size: 40px; }
+
+.b-box__hover .middle:hover {
+  opacity: 1; }
+
+h4 {
+  font-family: 'Open Sans';
+  margin: 0; }
+
+.modal, body.modal-open {
+  padding-right: 0 !important; }
+
+body.modal-open {
+  overflow: auto; }
+
+body.scrollable {
+  overflow-y: auto; }
+
+.modal-footer_1 {
+  background-color: #202c5a;
+  width: 100%;
+  height: 60px;
+  padding: 20px; }
+  .modal-footer_1 div.b-btn__ {
+    font-family: 'Hind Siliguri', sans-serif;
+    float: left;
+    background-color: #FFFFFF;
+    font-family: "Courgette", cursive;
+    width: 40%;
+    font-size: 15px;
+    border-radius: 20px; }
+    .modal-footer_1 div.b-btn__ a {
+      font-family: 'Hind Siliguri', sans-serif;
+      font-size: 18px;
+      text-decoration: none;
+      color: #202c5a; }
+  .modal-footer_1 div.b-btn__:hover {
+    background-color: #C21616; }
+    .modal-footer_1 div.b-btn__:hover a {
+      color: #FFFFFF; }
+  .modal-footer_1 div.b-btn__2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    float: right;
+    background-color: #FFFFFF;
+    font-family: "Courgette", cursive;
+    width: 40%;
+    font-size: 15px;
+    border-radius: 20px; }
+    .modal-footer_1 div.b-btn__2 a {
+      font-family: 'Hind Siliguri', sans-serif;
+      font-size: 18px;
+      text-decoration: none;
+      color: #202c5a; }
+  .modal-footer_1 div.b-btn__2:hover {
+    background-color: #C21616; }
+    .modal-footer_1 div.b-btn__2:hover a {
+      color: #FFFFFF; }
+
+div._banner-home {
+  width: 100%;
+  height: 190px;
+  background-image: url(../img/banner/banner-01.png);
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  div._banner-home p {
+    text-align: left;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+    margin-left: 10%; }
+
+div.tam_img__ img {
+  width: 100%;
+  height: 550px; }
+
+div.b-box__hover.ba-0.ds-1 img.card-img-top {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%; }
+
+div.b-box__hover.ba-0.tp-s img.card-img-top {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%; }
+
+div#alertaIC div.alert {
+  margin-bottom: 6px; }
+
+div#alertaIC div.alert-info.alert-dismissible {
+  text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  div._cajaAzul {
+    height: auto; } }
+
+@media only screen and (min-width: 320px) and (max-width: 399px) {
+  span._color, ._space, a {
+    font-size: 7px; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 0px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 40px;
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 400px) and (max-width: 428px) {
+  span._color, ._space, a {
+    font-size: 11px; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 0px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 40px;
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 429px) and (max-width: 458px) {
+  span._color, ._space, a {
+    font-size: 12px; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 0px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 40px;
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 459px) and (max-width: 510px) {
+  span._color, ._space, a {
+    font-size: 13px; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 0px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 40px;
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 511px) and (max-width: 540px) {
+  span._color, ._space, a {
+    font-size: 13px; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 0px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 40px;
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 541px) and (max-width: 767px) {
+  span._color, ._space, a {
+    font-size: 13px; }
+  ._cajaAzul .container .col-sm-6 span._space {
+    color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 0px; }
+  ._cajaAzul .container .col-sm-6 a._space {
+    line-height: 40px;
+    padding-left: 0px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar-inverse .navbar-toggle {
+    border-color: transparent; }
+  .navbar-toggle {
+    padding: 10px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px; }
+  .navbar-toggle .icon-bar {
+    width: 30px;
+    height: 3px; }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #FFFFFF; } }
+
+@media only screen and (max-width: 767px) {
+  div.carousel.slide div.carousel-inner {
+    height: auto; } }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  div._contMayor2 button {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 20px; }
+  div._contMayor div.row div.col-sm-6 div._admisionEscolar button {
+    background-color: #FFFFFF;
+    width: 85%;
+    height: 40px;
+    margin-left: 7%;
+    margin-bottom: 20px; }
+  div._contMayor div.row div.col-sm-6 div._horarios button {
+    background-color: #FFFFFF;
+    width: 85%;
+    height: 40px;
+    margin-left: 7%;
+    margin-bottom: 20px; }
+  div._contMayor div.container div.col-sm-4 div._electronica button {
+    background-color: #202c5a;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 20px; }
+  div._contMayor div.container div.col-sm-4 div._electricidad button {
+    background-color: #202c5a;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 30px; }
+  div._contMayor div.container div.col-sm-4 div._electronica button {
+    background-color: #202c5a;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 20px; }
+  div._contMayor div.container div.col-sm-4 div._vestuario button {
+    background-color: #202c5a;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 20px; }
+  div._contMayor div.container div.col-sm-4 div._electronica {
+    background-color: #FFFFFF;
+    float: left;
+    height: auto; }
+  div._contMayor div.container div.col-sm-4 div._electricidad {
+    background-color: #FFFFFF;
+    float: left;
+    height: auto; }
+  div._contMayor div.container div.col-sm-4 div._vestuario {
+    background-color: #FFFFFF;
+    float: left;
+    height: auto; }
+  div._contMayor3 div.row div.col-sm-6 div._noticia1 img {
+    margin-left: 5%; }
+  div._contMayor3 div.row div.col-sm-6 div._noticia1 div._cajaTexto {
+    margin-left: 5%; }
+  div._contMayor3 div.row div.col-sm-3 div._noticia2 img {
+    margin-left: 5%; }
+  div._contMayor3 div.row div.col-sm-3 div._noticia2 div._cajaTexto {
+    margin-left: 5%; }
+  div._contMayor3 div.row div.col-sm-3 div._noticia3 img {
+    margin-left: 5%; }
+  div._contMayor3 div.row div.col-sm-3 div._noticia3 div._cajaTexto {
+    margin-left: 5%;
+    margin-bottom: 20px; }
+  div._contMayor4 div.row div.col-sm-6 div._noticia4 div._cajaTexto {
+    height: auto; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto {
+    background-size: cover;
+    background-image: url(../img/fondos/fondo-05-mobile.png);
+    width: 100%;
+    height: 250px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto {
+    background-size: cover;
+    background-image: url(../img/fondos/fondo-06-mobile.png);
+    width: 100%;
+    height: 200px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto h2 {
+    padding-top: 20px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto button {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #202c5a;
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-bottom: 20px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto button {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #202c5a;
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-bottom: 20px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto {
+    background-size: cover;
+    background-image: url(../img/fondos/fondo-05-768.png);
+    width: 100%;
+    height: 250px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto {
+    background-size: cover;
+    background-image: url(../img/fondos/fondo-06-768.png);
+    width: 100%;
+    height: 250px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto button {
+    width: 50%;
+    height: 40px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto button {
+    width: 50%;
+    height: 40px;
+    margin-top: 20px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 873px) {
+  div._contMayor2 div._imagen img {
+    width: 100%;
+    height: 580px; } }
+
+@media only screen and (min-width: 874px) and (max-width: 1100px) {
+  div._contMayor2 div._imagen img {
+    width: 100%;
+    height: 540px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+  div.carousel.slide div.carousel-inner {
+    height: 580px; } }
+
+@media only screen and (min-width: 901px) and (max-width: 1125px) {
+  div._contMayor4 div.row div.col-sm-4 div._noticia4 div._cajaTexto {
+    background-size: cover;
+    background-image: url(../img/fondos/fondo-05-900.png);
+    width: 100%;
+    height: 250px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto {
+    background-size: cover;
+    background-image: url(../img/fondos/fondo-06-900.png);
+    width: 100%;
+    height: 250px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia6 div._cajaTexto button {
+    width: 50%;
+    height: 40px; }
+  div._contMayor4 div.row div.col-sm-4 div._noticia5 div._cajaTexto button {
+    width: 50%;
+    height: 40px;
+    margin-top: 20px; } }
+
+@media only screen and (min-width: 1001px) and (max-width: 1125px) {
+  div._contMayor2 div._imagen img {
+    width: 100%;
+    height: 480px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  div._contMayor div.container div.col-sm-4 div._electronica button {
+    width: 50%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 30px; }
+  div._contMayor div.container div.col-sm-4 div._electricidad button {
+    width: 50%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 30px; }
+  div._contMayor div.container div.col-sm-4 div._vestuario button {
+    width: 50%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 30px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  div.content-02 div.container div.col-sm-6 div._cont-3 {
+    height: 400px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  div.content-02 div.container div.col-sm-6 div._cont-3 {
+    height: 300px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  div.content-02 div.container div.col-sm-6 div._cont-3 {
+    height: 300px; } }
+
+@media only screen and (max-width: 767px) {
+  div#cajMob__ {
+    padding-right: 0px !important;
+    padding-left: 0px !important; }
+  div.tam_img__ img {
+    height: 250px; }
+  .modal-footer_1 div.b-btn__ {
+    width: 40%;
+    height: 30px;
+    padding-top: 3px; }
+  .modal-footer_1 div.b-btn__ a {
+    font-size: 14px; }
+  .modal-footer_1 div.b-btn__2 {
+    width: 50%;
+    height: 30px;
+    padding-top: 3px; }
+  .modal-footer_1 div.b-btn__2 a {
+    font-size: 14px; }
+  .modal-content {
+    margin-top: 150px; }
+  div.content-01 div.container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  ._cont-0 {
+    margin-bottom: 20px; }
+  div.content-02 div.container {
+    padding-top: 0px; }
+  div.content-03 div.container {
+    padding-top: 0px; } }
+
+@media only screen and (min-width: 768px) {
+  .row.t-01 {
+    margin-right: -35px;
+    margin-left: -35px; } }
+
+.mt-1 {
+  margin-top: 5px; }
+
+.mt-2 {
+  margin-top: 10px; }
+
+.mt-3 {
+  margin-top: 15px; }
+
+.mt-4 {
+  margin-top: 20px; }
+
+.mt-5 {
+  margin-top: 25px; }
+
+.mt-6 {
+  margin-top: 30px; }
+
+.mt-7 {
+  margin-top: 35px; }
+
+.mt-8 {
+  margin-top: 40px; }
+
+.mt-9 {
+  margin-top: 45px; }
+
+.mt-10 {
+  margin-top: 50px; }

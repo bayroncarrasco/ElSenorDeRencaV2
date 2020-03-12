@@ -1,0 +1,138 @@
+body{
+    overflow-x: hidden;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    }
+._cajaAzul{
+    width: 100%;
+    height: 50px;
+    background-color: $text-corp-azul;
+    display: flex;
+    .container{
+        .col-sm-6{
+            span._color{
+                font-family: 'Hind Siliguri', sans-serif;
+                color: $text-blanco;
+            }
+            span._space{
+                color: $text-blanco;
+                padding-left: 20px;
+                margin-left: 5px;
+                line-height: 50px;
+            }
+            a{
+                font-family: 'Hind Siliguri', sans-serif;
+                color: $text-blanco;
+                padding-left: 5px;
+                margin-top: 12px;
+            }
+
+        }
+        .col-sm-6{
+            a._space{
+                line-height: 50px;
+                padding-left: 20px;
+            }
+        }
+        }
+}
+
+._cajaRojo{
+    width: 100%;
+    height: 50px;
+    background-color: $text-rojo;
+    margin-bottom: 5px;
+
+    form.example input[type=text] {
+        font-family: 'Hind Siliguri', sans-serif;
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid $text-blanco;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        width: 80%;
+        height:40px;
+        margin-top: 5px;
+        background: $text-blanco;
+      }
+      
+      form.example button {
+        float: left;
+        width: 20%;
+        height: 40px;
+        margin-top: 5px;
+        padding: 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: $text-corp-azul;
+        color: white;
+        font-size: 17px;
+        border: 1px solid $text-corp-azul;
+        border-left: none;
+        cursor: pointer;
+      }
+      
+      form.example button:hover {
+        background: $text-corp-azul;
+        color: $text-blanco;
+        border: 1px solid $text-blanco;
+      }
+      
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+}
+
+div.jumbotron{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:  0px;
+    background-color: $color-fondo-blanco;
+
+    div.container.text-center{
+        h1{
+            color: $text-corp-azul;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+        p{
+            color: $text-corp-azul;
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 25px;
+        }
+    }
+}
+
+nav.navbar.navbar-inverse{
+    background-color: $text-corp-azul;
+    border-color: $text-corp-azul;
+    div.container{
+
+        div.navbar-header{
+
+            a.navbar-brand{
+                font-family: 'Hind Siliguri', sans-serif;
+                color: $text-blanco;
+                font-size: 16px;
+        }
+    }
+}
+
+.collapse.navbar-collapse{
+    ul.nav.navbar-nav{
+        li{
+          a{
+            font-family: 'Hind Siliguri', sans-serif;
+            color: $text-blanco;
+            font-size: 16px;
+          }  
+        }
+    }
+}
+}
+

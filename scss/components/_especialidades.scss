@@ -1,0 +1,139 @@
+div._contMayor{
+    div.container{
+        h3._tituloEspecialidades{
+            font-family: 'Hind Siliguri', sans-serif;
+            color: $text-corp-azul;
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 50px;
+            padding-top: 10px;
+        }
+        div.col-sm-4{
+            padding-right: 0px;
+            padding-left: 0px;
+            div._electronica{
+                background-color: $text-blanco;
+                float: left;
+                height: 340px;
+                h3{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-corp-azul;
+                    line-height: 60px;
+                    text-align: center;
+                    border-bottom: 1px solid $text-corp-azul;
+                    border-bottom-width: 2px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-corp-azul;
+                    text-align: center;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    padding: 0 12px 0 12px;
+                    padding-top:30px;
+                }
+                button{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;
+                    background-color: $text-corp-azul;
+                    color: $text-blanco;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 5px;
+                    width: 25%;
+                    height: 40px;
+                    margin-left: 35%;
+                    margin-top: 30px;
+                    
+                }
+        }
+    }
+    
+    }
+    div.container{
+        div.col-sm-4{
+            div._electricidad{
+                background-color: $text-blanco;
+                float: left;
+                height: 340px;
+                h3{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-corp-azul;
+                    line-height: 60px;
+                    text-align: center;
+                    border-bottom: 1px solid $text-rojo;
+                    border-bottom-width: 2px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-corp-azul;
+                    text-align: center;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    padding: 0 12px 0 12px;
+                    padding-top:30px;
+                }
+                button{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;
+                    background-color: $text-corp-azul;
+                    color: $text-blanco;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 5px;
+                    width: 25%;
+                    height: 40px;
+                    margin-left: 35%;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    div.container{
+        div.col-sm-4{
+            div._vestuario{
+                background-color: $text-blanco;
+                float: left;
+                height: 340px;
+                h3{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-corp-azul;
+                    line-height: 60px;
+                    text-align: center;
+                    border-bottom: 1px solid $text-corp-azul;
+                    border-bottom-width: 2px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    color: $text-corp-azul;
+                    text-align: center;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    padding: 0 12px 0 12px;
+                    padding-top:30px;
+                }
+                button{
+                    font-family: 'Hind Siliguri', sans-serif;
+                    font-size: 16px;
+                    background-color: $text-corp-azul;
+                    color: $text-blanco;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 5px;
+                    width: 25%;
+                    height: 40px;
+                    margin-left: 35%;
+                    margin-top: 50px;
+                    text-decoration: none;
+                }
+                button:hover{
+                    opacity: 0.6;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

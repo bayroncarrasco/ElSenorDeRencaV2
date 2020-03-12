@@ -1,0 +1,52 @@
+@media only screen and (max-width: 767px) {
+    div#cajMob__ {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    div.tam_img__ img {
+        height: 250px;
+    }
+
+    .modal-footer_1 div.b-btn__ {
+        width: 40%;
+        height: 30px;
+        padding-top: 3px;
+    }
+    
+    .modal-footer_1 div.b-btn__ a {
+        font-size: 14px;
+    }
+    
+    .modal-footer_1 div.b-btn__2 {
+        width: 50%;
+        height: 30px;
+        padding-top: 3px;
+    }
+    
+    .modal-footer_1 div.b-btn__2 a {
+        font-size: 14px;
+    }
+    .modal-content {
+        margin-top: 150px;
+    }
+    div.content-01 div.container {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    ._cont-0 {
+        margin-bottom: 20px;
+    }
+    div.content-02 div.container {
+        padding-top: 0px;
+    }
+    div.content-03 div.container {
+        padding-top: 0px;    }
+}
+
+@media only screen and (min-width: 768px) {
+    .row.t-01 {
+        margin-right: -35px;
+        margin-left: -35px;
+    }
+}

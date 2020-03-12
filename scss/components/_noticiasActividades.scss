@@ -1,0 +1,266 @@
+div._contMayor3{
+    background-color: $text-corp-azul;
+    height:auto;
+    div.row{
+        h3._tituloNoticias{
+            font-family: 'Hind Siliguri', sans-serif;
+            color: $text-blanco;
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 50px;
+            padding-top: 10px;
+        }
+
+        margin-right: 0px;
+        margin-left: 0px;
+        div.col-sm-6{
+            div._noticia1{
+                img{
+                    margin-top: 20px;
+                    margin-left: 30px; 
+                    width: 90%;
+                }
+                div._cajaTexto{
+                    margin-left: 30px;
+                    width: 90%;
+                    background-color: $text-blanco;
+                    border-top: 4px solid $text-rojo;
+                    height: 200px;
+                    margin-bottom: 20px;
+                    h3{
+                        margin: 15px;
+                        margin-top: 0px;
+                        padding-top: 10px;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-corp-azul;
+                    }
+                    p{
+                        margin: 15px;
+                        text-align: justify;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-corp-azul;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div._contMayor3{
+    background-color: $text-corp-azul;
+    div.row{
+        margin-right: 0px;
+        margin-left: 0px;
+        div.col-sm-3{
+            div._noticia2{
+                img{
+                    margin-top: 20px;
+                    width: 90%;
+                }
+                div._cajaTexto{
+                    width: 90%;
+                    height: 180px;
+                    background-color: $text-blanco;
+                    border-top: 4px solid $text-rojo;
+                    h3{
+                        margin: 15px;
+                        margin-top: 0px;
+                        padding-top: 10px;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-corp-azul;
+                    }
+                    p{
+                        margin: 15px;
+                        text-align: justify;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-corp-azul;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div._contMayor3{
+    div.row{
+        margin-right: 0px;
+        margin-left: 0px;
+        div.col-sm-3{
+            div._noticia3{
+                img{
+                    margin-top: 20px;
+                    width: 90%;
+                }
+                div._cajaTexto{
+                    width: 90%;
+                    height: 180px;
+                    background-color: $text-blanco;
+                    border-top: 4px solid $text-rojo;
+                    h3{
+                        margin: 15px;
+                        margin-top: 0px;
+                        padding-top: 10px;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-corp-azul;
+                    }
+                    p{
+                        margin: 15px;
+                        text-align: justify;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-corp-azul;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div._contMayor4{
+    div.row{
+        margin-right: 0px;
+        margin-left: 0px;
+        div.col-sm-4{
+            div._noticia4{
+                z-index: 1;
+                div._cajaTexto{
+                    background-size: cover;
+                    background-image: url(../img/fondos/fondo-05.png);
+                    width: 100%;
+                    height: 250px;
+                    background-color: $text-rojo;
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    align-content: center;
+                    h2{
+                        margin-top: 0px;
+                        padding-top: 60px;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-blanco;
+                        z-index: 2;
+                    }
+                    p{
+                        text-align: justify;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-blanco;
+                        font-size: 15px;
+                    }
+                    button{
+                        font-family: 'Hind Siliguri', sans-serif;
+                        font-size: 16px;
+                        background-color: $text-blanco;
+                        color: $text-corp-azul;
+                        border: 1px solid #FFFFFF;
+                        border-radius: 5px;
+                        width: 20%;
+                        height: 40px;
+                    }                 
+                }
+            }
+        }
+    }
+}
+
+div._contMayor4{
+    div.row{
+        margin-right: 0px;
+        margin-left: 0px;
+        div.col-sm-4{
+            div._noticia6{
+                z-index: 1;
+                div._cajaTexto{
+                    background-size: cover;
+                    background-image: url(../img/fondos/fondo-06.png);
+                    width: 100%;
+                    height: 250px;
+                    background-color: $text-rojo;
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    align-content: center;
+                    h2{
+                        margin-top: 0px;
+                        padding-top: 60px;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-blanco;
+                        z-index: 2;
+                    }
+                    p{
+                        text-align: justify;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-blanco;
+                        font-size: 15px;
+                    }
+                    button{
+                        font-family: 'Hind Siliguri', sans-serif;
+                        font-size: 16px;
+                        background-color: $text-blanco;
+                        color: $text-corp-azul;
+                        border: 1px solid #FFFFFF;
+                        border-radius: 5px;
+                        width: 20%;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div._contMayor4{
+    div.row{
+        margin-right: 0px;
+        margin-left: 0px;
+        div.col-sm-4{
+            padding-right: 0px;
+            padding-left: 0px;
+            div._noticia5{
+                div._cajaTexto{
+                    background-image: url(../img/fondos/fondo-04.jpg);
+                    width: 100%;
+                    height: 250px;
+                    background-color: $text-rojo;
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    align-content: center;
+                    h2{
+                        margin-top: 0px;
+                        padding-top: 60px;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-blanco;
+                    }
+                    p{
+                        text-align: justify;
+                        font-family: 'Hind Siliguri', sans-serif;
+                        color: $text-blanco;
+                        font-size: 15px;
+                    }
+                    button{
+                        font-family: 'Hind Siliguri', sans-serif;
+                        font-size: 16px;
+                        background-color: $text-blanco;
+                        color: $text-corp-azul;
+                        border: 1px solid #FFFFFF;
+                        border-radius: 5px;
+                        width: 20%;
+                        height: 40px;
+                    }
+                    button:before {
+                        content:"";
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                        height: 0px;
+                        background: rgba(19, 0, 0, 0.190);
+                        transition: all 1s ease;
+                      } 
+                      button:hover:before {
+                        height: 100%;
+                      }
+                }
+            }
+        }
+    }
+}

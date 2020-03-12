@@ -1,0 +1,143 @@
+/*Efecto Gallery*/
+
+div.b-efect__image_gallery{
+    img#myImg{
+        border-radius: 70px;
+        height: 200px;
+    }
+}
+  .middle {
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+    .text {
+        background-color: transparent;
+        color: white;
+        padding: 16px 32px;
+      }
+  }
+  
+  span.glyphicon.glyphicon-plus-sign{
+    font-size: 40px;
+}
+
+  .b-box__hover .middle:hover {
+      opacity: 1;
+  }
+  
+
+  h4 { font-family: 'Open Sans'; margin: 0;}
+
+.modal,body.modal-open {
+    padding-right: 0!important
+}
+
+body.modal-open {
+    overflow: auto
+}
+
+body.scrollable {
+    overflow-y: auto
+}
+
+.modal-footer_1 {
+    background-color: $text-corp-azul;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+	div.b-btn__ {
+        font-family: 'Hind Siliguri', sans-serif;
+        float: left;
+        background-color: $text-blanco;
+        font-family: $fuente-principal;
+        width: 40%;
+        font-size: 15px;
+        border-radius: 20px;
+
+        a{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 18px;
+        text-decoration:none;
+        color: $text-corp-azul;
+        }
+    }
+
+    div.b-btn__:hover{
+        background-color: $color-fondo-rojo;
+        a{
+            color: $text-blanco;
+        }
+    }
+
+    div.b-btn__2 {
+        font-family: 'Hind Siliguri', sans-serif;
+        float: right;
+        background-color: $text-blanco;
+        font-family: $fuente-principal;
+        width: 40%;
+        font-size: 15px;
+        border-radius: 20px;
+
+        a{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 18px;
+        text-decoration:none;
+        color: $text-corp-azul;
+        }
+    }
+    
+    div.b-btn__2:hover{
+        background-color: $color-fondo-rojo;
+        a{
+            color: $text-blanco;
+        }
+    }
+}
+
+div._banner-home{
+    width: 100%;
+    height: 190px;
+    background-image: url(../img/banner/banner-01.png);
+    margin-top: 5px;
+    display: flex;
+
+    p{
+        text-align: left;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        color: white;
+        margin-left: 10%;
+    }
+}
+
+div.tam_img__{
+    img{
+        width: 100%;
+        height: 550px;
+    }
+}
+  
+div.b-box__hover.ba-0.ds-1{
+    img.card-img-top{
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+div.b-box__hover.ba-0.tp-s{
+    img.card-img-top{
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}

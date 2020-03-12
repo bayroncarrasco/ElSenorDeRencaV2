@@ -1,0 +1,147 @@
+/*Variables de Color de Fondo*/
+$color-fondo-rojo: #C21616;
+$color-fondo-verde: #22FD04;
+$color-fondo-amarillo: #FDFD04;
+$color-fondo-morado: #7904FD;
+$color-fondo-rosado: #F204FD;
+$color-fondo-blanco: #FFFFFF;
+$color-fondo-negro: #000000;
+$color-fondo-gris: #EEEEEE;
+$color-fondo-celeste: rgba(0,86,171,0.75);
+
+/*Variables de Color de Texto*/
+$text-rojo: #C21616;
+$text-verde: #22FD04;
+$text-amarillo: #FDFD04;
+$text-morado: #7904FD;
+$text-rosado: #F204FD;
+$text-blanco: #FFFFFF;
+$text-negro: #000000;
+$text-corp-gris: #EEEEEE;
+$text-corp-celeste: #0095eb;
+$text-corp-gris: #bbbbbb;
+$text-corp-azul: #202c5a;
+
+/*Variables Tamaño de Texto*/
+$tam-8px: 8px;
+$tam-12px: 12px;
+$tam-14px: 14px;
+$tam-16px: 16px;
+$tam-18px: 18px;
+$tam-20px: 20px;
+$tam-22px: 22px;
+$tam-24px: 24px;
+$tam-26px: 26px;
+$tam-28px: 28px;
+$tam-30px: 30px;
+
+/*Variables width and height*/
+$tam-width-10px: 10px;
+$tam-width-20px: 20px;
+$tam-width-30px: 30px;
+$tam-width-40px: 40px;
+$tam-width-50px: 50px;
+$tam-width-60px: 60px;
+$tam-width-70px: 70px;
+$tam-width-80px: 80px;
+$tam-width-90px: 90px;
+$tam-width-100px: 100px;
+$tam-width-200px: 200px;
+$tam-width-300px: 300px;
+$tam-width-400px: 400px;
+$tam-width-500px: 500px;
+$tam-width-600px: 600px;
+$tam-width-700px: 700px;
+$tam-width-800px: 800px;
+
+/*Padding top*/
+$pt-1: 5px;
+$pt-2: 10px;
+$pt-3: 15px;
+$pt-4: 20px;
+$pt-5: 25px;
+$pt-6: 30px;
+$pt-7: 35px;
+$pt-8: 40px;
+$pt-9: 45px;
+$pt-10: 50px;
+
+/*margin top*/
+$mt-1: 5px;
+$mt-2: 10px;
+$mt-3: 15px;
+$mt-4: 20px;
+$mt-5: 25px;
+$mt-6: 30px;
+$mt-7: 35px;
+$mt-8: 40px;
+$mt-9: 45px;
+$mt-10: 50px;
+
+/*Familia de Fuentes*/
+
+$fuente-principal: 'Courgette', cursive;
+$fuente-secundaria: 'Advent Pro', sans-serif;
+$fuente-terciaria: 'Lily Script One', cursive;
+
+/*Fin Variables*/
+
+/*Imports*/
+
+@import './components/_footer';
+@import './components/_menu';
+@import './components/inicioClases';
+@import './components/_admisionEscolar';
+@import './components/_idearioViatoriano';
+@import './components/_centrosEducativos';
+@import './components/_especialidades';
+@import './components/_carrousel';
+@import './components/_noticiasActividades';
+@import './components/_resultadosBuscador';
+@import './components/_quienesSomos';
+@import './components/_gallery';
+@import './components/_alerta.scss';
+@import './medias/medias-query-menu.scss';
+@import './medias/medias-query-carrousel.scss';
+@import './medias/medias-query-desarrollo.scss';
+@import './medias/medias-query-quienesSomos.scss';
+@import './medias/media-query-galeria.scss';
+.mt-1{
+    margin-top: 5px;
+}
+
+.mt-2{
+    margin-top: 10px;
+}
+
+.mt-3{
+    margin-top: 15px;
+}
+
+.mt-4{
+    margin-top: 20px;
+}
+
+.mt-5{
+    margin-top: 25px;
+}
+
+.mt-6{
+    margin-top: 30px;
+}
+
+.mt-7{
+    margin-top: 35px;
+}
+
+.mt-8{
+    margin-top: 40px;
+}
+
+.mt-9{
+    margin-top: 45px;
+}
+
+.mt-10{
+    margin-top: 50px;
+}

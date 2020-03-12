@@ -1,0 +1,22 @@
+div._idearioViatoriano{
+    width: 100%;
+    height: 200px;
+    background-color:$text-blanco;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        color: $text-corp-azul;
+        text-align: center;
+    }
+    p{
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 31px;
+        color: $text-corp-azul;
+        text-align: center;
+    }
+}

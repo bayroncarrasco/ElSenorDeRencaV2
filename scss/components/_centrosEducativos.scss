@@ -1,0 +1,36 @@
+div._contMayor2{
+    background-color: $text-corp-azul;
+    width: 100%;
+    height:auto;
+    div._imagen{
+        img{
+            width: 100%;
+        }
+
+    }
+    background-image: url(../../img/fondos/fondo-01.jpg);
+    div.container._texto{
+        width: 100%;
+        height: auto;
+        justify-content: left;
+        margin-top: 40px;
+        margin: 2px;
+           p{
+                color: $text-blanco;
+                text-align: left;
+                line-height: 15pt;
+                margin-right: 20px;
+                margin-top: 23px;
+           }
+        }
+        button{
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 16px;
+            background-color: $text-blanco;
+            border: 1px solid $text-blanco;
+            border-radius: 5px;
+            width: 25%;
+            height: 40px;
+            margin-left: 35%;
+        }
+    }
